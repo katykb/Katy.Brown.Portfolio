@@ -16,13 +16,13 @@ nav {
 a {
     text-decoration: none;
     text-align: center;
-    padding: 60px;
+    padding: 20px;
     color: white;
    }
 
 header #animate-text {
-    padding: 70px;
-    height: 400px;
+    padding: 10px;
+    height: 258px;
    background-image: linear-gradient(167deg,
     #f7b2eddc 0%,
     #9ef796 29%,
@@ -44,45 +44,57 @@ header #animate-text {
     }
 
 h1 {
-    text-align: left;
-    height: 68px;
+    text-align: center;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .flex-item-left {
-    padding: 18px;
+    padding: 12px;
     flex: 50%;
-    height: 215px;
+    height: 285px;
     margin-left: 81px;
-    text-align: left;
   }
 
 .flex-item-right {
    padding: 30px;
-   flex: 50%;
+   flex: 25%;
    display: flex;
+   height: 473px;
     }
 
 img {
-    width: 30%;
+    width: 100%;
     border-radius: 50%;
     border:rgb(146, 189, 224) 13px dashed;
-    margin-top: -110px;
-   }
+    flex-shrink: ;
+      }
  
-p {
+.welcome-message {
     color: white;
-    font-size: 25px;
-    text-align:left;
-    width: 50%;
+    font-size: 23px;
+    width: 100%;
   }
 
-  .flex-container-about {
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+  .side {
     position: relative;
     padding: 18px;
     flex: 50%;
     height: 215px;
     flex-direction: row;
+    color: white;
+    flex-wrap: wrap;
   }
 
   #about .about-summary {
@@ -91,41 +103,19 @@ p {
     margin: 50px 100px 250px 450px;
 }
 
-  #about{
-      color: white;
-      font-size: 30px;
-      flex: 50%;
-      display: flex;
-      height: 50px;
-      height: 75px;
-      text-align: right;
-   }
+  #about h3{
+    font-size: 30px;
+    text-align: center;
+    }
 
    .about-summary {
-       color: white;
        font-size: 20px;
        flex: 50%;
        height: 500px;
-   }
-
-   #about .about-summary{
-       margin: 50px;
+       padding: 24px;
+       margin-top: 21px;
    }
    
-   .flex-item-about-pic {
-        padding: 30px;
-        flex: 50%;
-        display: flex;
-        align-content: left;
-         }
-     
-    .hangers-pic  {
-         width: 62%;
-         height: 150%;
-         border-radius: 50%;
-         border:rgb(146, 189, 224) 13px dashed;
-         margin-top: -110px;
-        }
 
     
 
@@ -139,12 +129,11 @@ p {
     body {
     background-color: pink;
     }
-    nav {
+    
+    nav .side .flex-container{
         flex-direction: column;
     }
-    .flex-container{flex-direction:column;
-    }
-
+ 
   .flex-item-left{
       height: 700px;
   }
@@ -153,15 +142,9 @@ p {
         height: 400px;
     }
    #animate-text {overflow-wrap:break-word;
-       
     }
-} img {
-   height: 400px;
 }
-.flex-item-right{
-    height: 400px;
-    flex: 50%;
-}
+
 
 
 
