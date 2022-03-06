@@ -1,0 +1,136 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: flex;
+    }
+
+a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 28px;
+    color: white;
+   }
+
+header #animate-text {
+    padding: 70px;
+    height: 400px;
+   background-image: linear-gradient(167deg,
+    #f7b2eddc 0%,
+    #9ef796 29%,
+    #fdd8aee3 67%,
+    rgb(146, 189, 224) 100%);
+   background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: infinite reverse textclip 5s;
+  font-size: 128px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction:row;
+    color: white;
+    }
+
+h1 {
+    text-align: left;
+    height: 68px;
+    flex-wrap: wrap;
+}
+
+.flex-item-left {
+    padding: 18px;
+    flex: 50%;
+   height: 215px;
+    margin-left: 81px;
+    text-align: left;
+  }
+
+.flex-item-right {
+   padding: 30px;
+   flex: 50%;
+   display: flex;
+    }
+
+img {
+    width: 62%;
+    height: 150%;
+    border-radius: 50%;
+    border:rgb(146, 189, 224) 13px dashed;
+    margin-top: -110px;
+   }
+ 
+p {
+    color: white;
+    font-size: 25px;
+    text-align:left;
+    width: 50%;
+  }
+
+#about{
+      color: white;
+      font-size: 30px;
+      flex: 50%;
+      display: flex;
+      height: 50px;
+      height: 75px;
+      
+}
+
+.flex-container-2 {
+    position: relative;
+    padding: 18px;
+    flex: 50%;
+    height: 215px;
+}
+
+.flex-item-about {
+    margin-left: 376px;
+    text-align: left;
+    position: absolute;
+    margin-top: 75px;
+    }
+
+    
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+
+
+@media (max-width: 586px) {
+    body {
+    background-color: pink;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .flex-container{flex-direction:column;
+    }
+    header{
+        height: 450px;
+    }
+   #animate-text {overflow-wrap:break-word;
+       
+    }
+} img {
+    fl
+}
+
+
+
+
