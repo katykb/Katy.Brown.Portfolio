@@ -20,6 +20,10 @@ a {
     color: white;
    }
 
+   html {
+    scroll-behavior: smooth;
+  }
+
 header #animate-text {
     padding: 10px;
     height: 258px;
@@ -63,17 +67,17 @@ h1 {
    height: 473px;
     }
 
-img {
-    width: 100%;
-    border-radius: 50%;
-    border:rgb(146, 189, 224) 13px dashed;
-    flex-shrink: ;
-      }
+    .portfolio-pic {
+        max-width: 100%;
+        border-radius: 50%;
+        border:rgb(146, 189, 224) 13px dashed;
+          }
  
 .welcome-message {
     color: white;
     font-size: 23px;
     width: 100%;
+    font-family: 'Barlow', sans-serif;
   }
 
 .row {
@@ -81,43 +85,92 @@ img {
     flex-wrap: wrap;
 }
 
-.main {
-    flex: 70%;
-    background-color: white;
-    padding: 20px;
-}
-
   .side {
     position: relative;
     padding: 18px;
-    flex: 50%;
+    flex: 30%;
     height: 215px;
     flex-direction: row;
     color: white;
     flex-wrap: wrap;
   }
 
-  #about .about-summary {
-    text-align: right;
-    flex-wrap: wrap;
-    margin: 50px 100px 250px 450px;
-}
-
-  #about h3{
+  .about{
     font-size: 30px;
     text-align: center;
+    margin-left: 24px;
+    padding: 5px;
     }
 
    .about-summary {
        font-size: 20px;
-       flex: 50%;
        height: 500px;
-       padding: 24px;
        margin-top: 21px;
-   }
-   
+       width: 100%;
+       }
 
+   .gallery {
+    flex: 70%;
+    padding: 5px;
+    flex-direction: column;
+   }
+
+   .column {
+    flex: 25%;
+    max-width: 100%;
+    padding: 0 4px;
+  }
+  
+  #projects{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.project1 {
+    max-width: 85%;
+    padding: 11px;
+    float: right;
+    margin-right: -7px;
+    position: relative;
+ }
+ .caption1 {
+     position: absolute;
+     color: white;
+     left: 65%;
+     transform: translate(50%, 550%);
+     }
+
+  .project3 {
+    position: relative;
+    margin-top: 8px;
+    float: right;
+    max-width: 100%;
+    max-height: 395px;
+    }
+
+    .caption3 {
+        position: absolute;
+        color: white;
+        left: 50%;
+        transform: translate(35%, 4000%)
+    }
+    .project2 {
+      position: relative;
+       max-width: 50%;
+       max-height: 410px;
+       padding: 10px;
+       float: right;
+    }
+ 
     
+   
+      
 
 @keyframes textclip {
     to {
@@ -130,14 +183,10 @@ img {
     background-color: pink;
     }
     
-    nav .side .flex-container{
+    nav {
         flex-direction: column;
     }
  
-  .flex-item-left{
-      height: 700px;
-  }
-   
    header{
         height: 400px;
     }
