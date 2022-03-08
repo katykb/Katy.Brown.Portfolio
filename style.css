@@ -15,7 +15,7 @@ nav {
     }
 
     header {
-        background-color: rgba(223, 90, 223, 0.438);
+        background-color: rgb(223 90 223 / 15%);
     }
 
 
@@ -113,10 +113,12 @@ h1 {
 
    .about-summary {
        font-size: 20px;
-       height: 500px;
+       height: 442px;
        margin-top: 21px;
        margin-left: 15px;
        width: 100%;
+       border: 2px dashed purple;
+       padding: 12px;
        }
 
        #resume {
@@ -125,10 +127,20 @@ h1 {
         margin-top: 59px;
        }
    
+       .resume-coming-soon {
+           width: 460px;
+           height: 200px;
+           padding: 50px;
+           border: 2px dashed purple;
+           text-align: center;
+           margin-top: 15px;
+       }
+
     .gallery {
     flex: 70%;
     padding: 5px;
     flex-direction: column;
+    background-color: #80008012;
    }
 
    .column {
@@ -151,11 +163,6 @@ h1 {
     position: relative;
  }
  
-     h4 {
-         color: white;
-         font-size: 15px;
-         text-align: center;
-     }
   .project3 {
     position: relative;
     margin-top: 100px;
@@ -172,9 +179,43 @@ h1 {
        padding: 14px;
        float: right;
     }
+
+#contact {
+    color: white;
+    background-color: purple;
+}
+
+input [type=text ] {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: verticle;
+
+}
+
+ input [type=submidt]{
+     background-color: rgb(91, 9, 99);
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     cursor: pointer;
+ }
+
+ input [type=submidt] :hover {
+     background-color: aquamarine;
+ }
+
+ .container-contact {
+     border-radius: 5px;
+     background-color: rgba(218, 132, 210, 0.911);
+     padding: 20px;
+ }
  
-  
-      
+       
 
 @keyframes textclip {
     to {
