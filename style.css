@@ -17,17 +17,19 @@ body {
 }
 
 .landingBody {
-  background: linear-gradient(45deg 028090, 114B5F);
+  background: linear-gradient(#028090, #114B5F);
+  height: 100vh;
+  font-family:'Bitter', serif;
 }
 
 .nav-wrapper,
 .landingNav {
-  background-color: #379dc6ff !important;
+  background-image: linear-gradient( #379dc6ff, #72DDF1 )!important;
   display: flex;
 }
 
 .landingNav {
-  height: 80px;
+  height: 95px;
   justify-content: center;
   display: flex;
 }
@@ -36,18 +38,21 @@ body {
   background-color: #9db553ff;
   margin: 10px 10px 10px 10px;
   justify-content: left;
+  font-family: 'Bitter', serif;
 }
 
-img{
-  width: 15%;
-  height: 15%;
+
+h1 {
+  position: relative;
+}
+
+.landingPic {
+  width: auto;
+  height: 40%;
   border-radius: 50%;
-  margin-top: 50px;
-  margin-left: 5%;
-}
-
-header {
-  background-color: rgb(223 90 223 / 15%);
+  margin-top: -325px;
+  margin-left: -154px;
+  position: absolute;
 }
 
 a {
@@ -61,9 +66,8 @@ html {
   scroll-behavior: smooth;
 }
 
-header #animate-text {
-  padding: 10px;
-  height: 258px;
+  #animate-text, .landingSubHeading{ 
+  height: 125px;
   background-image: linear-gradient(
     167deg,
     #f7b2eddc 0%,
@@ -75,12 +79,17 @@ header #animate-text {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: infinite reverse textclip 5s;
-  font-size: 128px;
+  font-size: 100px;
   text-align: center;
-  margin-right: 50px;
+  margin-right: -20px;
   flex-wrap: wrap;
+  margin-top: 150px;
 }
 
+.landingSubHeading {
+ font-size: 40px;
+ margin-top: 12px;
+}
 .flex-container {
   display: flex;
   flex-direction: row;
