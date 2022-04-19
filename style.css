@@ -25,8 +25,9 @@
 
 .landingNav {
   height: 95px;
-  justify-content: center;
+  justify-content: right;
   display: flex;
+  margin-right: 20px;
 }
 
 .btn-large {
