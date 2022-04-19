@@ -12,14 +12,14 @@
 }
 
 .landingBody {
-  background: linear-gradient(#028090, #114B5F);
+  background: linear-gradient(#028090, #114b5f);
   height: 100vh;
-  font-family:'Bitter', serif;
+  font-family: "Bitter", serif;
 }
 
 .nav-wrapper,
 .landingNav {
-  background-image: linear-gradient( #379dc6ff, #72DDF1 )!important;
+  background-image: linear-gradient(#379dc6ff, #72ddf1) !important;
   display: flex;
 }
 
@@ -33,7 +33,7 @@
   background-color: #9db553ff;
   margin: 10px 10px 10px 10px;
   justify-content: left;
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
 }
 
 h1 {
@@ -49,6 +49,11 @@ h1 {
   position: absolute;
 }
 
+.foodDictionary {
+  height: 50vh;
+  width: 100%;
+}
+
 a {
   text-decoration: none;
   text-align: center;
@@ -60,7 +65,8 @@ html {
   scroll-behavior: smooth;
 }
 
-  #animate-text, .landingSubHeading{ 
+#animate-text,
+.landingSubHeading {
   height: 125px;
   background-image: linear-gradient(
     167deg,
@@ -81,19 +87,42 @@ html {
 }
 
 .landingSubHeading {
- font-size: 40px;
- margin-top: 12px;
+  font-size: 40px;
+  margin-top: 12px;
 }
 
-.mainBody, .containerMain {
-  background-color: rgba(124, 220, 233, 0.301);
+.mainBody,
+.containerMain {
+  background: linear-gradient(#028090, #114b5f);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.mainHeader{
-  background-color: aqua;
-  height: 200px;
+.projectTitle {
+  margin-left: 15px;
+  color: white;
 }
+
+.projectSection,
+.about-summary,
+.resume-coming-soon {
+  border-left: solid 2px #edf2f4;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.about-summary,
+.resume-coming-soon {
+  margin-right: -150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.project1 {
+  width: 100%;
+  margin-right: 50px;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -129,11 +158,11 @@ h1 {
 
 .welcomeMessage {
   margin-top: -50px;
-  color: #E7ECEF;
+  color: #e7ecef;
   font-size: 23px;
   width: 100%;
   text-align: center;
- }
+}
 
 .row {
   display: flex;
@@ -151,28 +180,14 @@ h1 {
   flex-wrap: wrap;
 }
 
-.about, #resume, #projects {
+.about,
+#resume,
+#projects {
   font-size: 30px;
   text-align: center;
   margin-left: 24px;
   padding: 5px;
-}
-
-.about-summary, .resume-coming-soon, .projectPics {
-  font-size: 20px;
-  height: 455px;
-  margin-top: 21px;
-  margin-left: 15px;
-  width: 100%;
-  border-left: 2px solid #8b8c89;
-  padding: 8px;
-}
-
-
-.gallery {
-  flex: 25%;
-  max-width: 50%;
-  padding: 0 4px;
+  color: white;
 }
 
 #projects {
@@ -182,16 +197,16 @@ h1 {
 }
 
 .project1 {
-  max-width: 82%;
+  max-width: 100%;
   padding: 11px;
   float: right;
-  margin-right: -7px;
+  margin-right: -100px;
   position: relative;
 }
 
 .project3 {
   position: relative;
-  margin-top: 100px;
+  margin-top: 75px;
   float: right;
   max-width: 50%;
   max-height: 372px;
@@ -203,17 +218,18 @@ h1 {
   max-height: 473px;
   padding: 14px;
   float: right;
+  margin-right: -100px;
 }
 
 #contact {
   color: white;
-  background-color: purple;
+  background-color: #044b7f;
 }
 
 input [type="text"] {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #114b5f;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -222,7 +238,7 @@ input [type="text"] {
 }
 
 input [type="submidt"] {
-  background-color: rgb(91, 9, 99);
+  background-color: #028090;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -235,7 +251,7 @@ input [type="submidt"] :hover {
 
 .container-contact {
   border-radius: 5px;
-  background-color: rgba(218, 132, 210, 0.911);
+  background-color: #114b5f;
   padding: 20px;
 }
 
@@ -262,8 +278,6 @@ input [type="submidt"] :hover {
   .flex-container {
     flex-direction: column;
   }
-
-  
 
   /* .flex-item-left {
     flex-direction: column;
