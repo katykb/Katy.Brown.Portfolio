@@ -253,11 +253,11 @@ input [type="submidt"] :hover {
 }
 
 @media (max-width: 586px) {
-  body {
-    background-color: pink;
+  .landingBody, .mainBody {
+    background-color: #9fd356;
   }
 
-  nav {
+  .landingNav, .mainNav, .nav-wrapper {
     flex-direction: column;
   }
 
