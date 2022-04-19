@@ -7,4 +7,4 @@ This assignment utilized the CSS skills we learned in weeks one and two of Bootc
 Given that the majority of users have switched from laptops and tablets to mobile phone media, we were tasked with making our page responsive to a small device like a cell phone. 
 
 
-![ScrollingScreenShot](https://user-images.githubusercontent.com/97707793/157190971-a9847a90-c463-4458-a73e-dc4b426c7fb0.jpg)
+![image](https://user-images.githubusercontent.com/97707793/164087463-7eb649bc-e27a-4d12-a32e-520f9e429321.png)
