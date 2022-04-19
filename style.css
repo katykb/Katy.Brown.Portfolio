@@ -92,6 +92,12 @@ html {
   margin-top: 12px;
 }
 
+.mainNav {
+  margin-left: 300px;
+  background-image: linear-gradient(#379dc6ff, #72ddf1) !important;
+  height: 75px;
+}
+
 .mainBody,
 .containerMain {
   background: linear-gradient(#028090, #114b5f);
@@ -163,22 +169,6 @@ h1 {
   font-size: 23px;
   width: 100%;
   text-align: center;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rgba(236, 147, 236, 0.219);
-}
-
-.side {
-  position: relative;
-  padding: 18px;
-  flex: 30%;
-  height: 215px;
-  flex-direction: row;
-  color: white;
-  flex-wrap: wrap;
 }
 
 .about,
