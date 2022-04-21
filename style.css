@@ -42,7 +42,7 @@ h1 {
 }
 
 .landingPic {
-  width: auto;
+  max-width: 100%;
   height: 40%;
   border-radius: 50%;
   margin-top: -325px;
@@ -96,6 +96,7 @@ html {
   margin-left: 300px;
   background-image: linear-gradient(#379dc6ff, #72ddf1) !important;
   height: 75px;
+  display: flex;
 }
 
 .mainBody,
@@ -140,20 +141,6 @@ h1 {
   text-align: center;
   flex-wrap: wrap;
   padding: 10px;
-}
-
-.flex-item-left {
-  padding: 12px;
-  flex: 50%;
-  height: 285px;
-  margin-left: 81px;
-}
-
-.flex-item-right {
-  padding: 30px;
-  flex: 25%;
-  display: flex;
-  height: 473px;
 }
 
 .portfolio-pic {
@@ -253,11 +240,37 @@ input [type="submidt"] :hover {
 }
 
 @media (max-width: 586px) {
-  .landingBody, .mainBody {
-    background-color: #9fd356;
+
+  .btn-large{
+    margin-left: 100px;
   }
 
-  .landingNav, .mainNav, .nav-wrapper {
+  .landingPic {
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: -550px;
+  }
+
+  #animate-text {
+    margin-top: 350px;
+    flex-direction: column;
+    display: flex;
+    order: 2;
+  }
+
+  .landingSubHeading {
+    margin-top: -56px;
+  }
+
+  .welcomeMessage {
+    flex-direction: column;
+    display: flex;
+    order: 4;
+  }
+
+  .landingNav,
+  .mainNav,
+  .nav-wrapper {
     flex-direction: column;
   }
 
@@ -269,20 +282,4 @@ input [type="submidt"] :hover {
   .flex-container {
     flex-direction: column;
   }
-
-  /* .flex-item-left {
-    flex-direction: column;
-    order: 2;
-  }
-  .gallery {
-    flex-direction: column;
-    order: 4;
-  }
-  .footer {
-    flex-direction: column;
-  }
-  div.side {
-    flex-direction: column;
-    order: 2;
-  } */
 }
