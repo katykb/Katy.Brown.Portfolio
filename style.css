@@ -158,6 +158,11 @@ h1 {
   text-align: center;
 }
 
+.border{
+  height: 5px;
+  background-image: linear-gradient(#E7ECEF, #8B8C89);
+  }
+
 .about,
 #resume,
 #projects,
@@ -182,7 +187,6 @@ h1 {
   float: right;
   margin-right: -100px;
   margin-top: 0px;
-  
 }
 
 .project3 {
@@ -193,7 +197,6 @@ h1 {
 }
 
 .project2 {
-  
   max-width: 50%;
   max-height: 473px;
   padding: 14px;
@@ -233,14 +236,14 @@ input [type="submit"] :hover {
 .container-contact {
   border-radius: 5px;
   background-color: #114b5f;
-   padding: 20px; 
-  }
+  padding: 20px;
+}
 
-  #contact{
-   margin-left: 100px;
-   margin-top: 50px;
-   margin-bottom: 50px;
-  }
+#contact {
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 @keyframes textclip {
   to {
@@ -249,8 +252,7 @@ input [type="submit"] :hover {
 }
 
 @media (max-width: 586px) {
-
-  .btn-large{
+  .btn-large {
     margin-left: 100px;
   }
 
@@ -289,14 +291,38 @@ input [type="submit"] :hover {
     font-size: 50px;
   }
 
-  .container{
+  .container {
     flex-direction: column;
     display: flex;
     overflow-wrap: normal;
   }
 
-
   .flex-container {
     flex-direction: column;
   }
+
+  .projectSection,
+  .about-summary,
+  .resume-coming-soon {
+    border-left: none;
+  }
+
+  .projectSection{
+    background-color: black;
+  }
+
+  .project1{
+    display: flex;
+    flex-direction: column;
+    margin-left: -700px;
+    margin-right: -100px;
+  }
+
+  .project2{
+    flex-direction: column;
+    margin-left: 400px;
+    margin-top: 150px;
+  }
+
+
 }
