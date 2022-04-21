@@ -160,10 +160,11 @@ h1 {
 
 .about,
 #resume,
-#projects {
+#projects,
+#contactTitle {
   font-size: 30px;
   text-align: center;
-  margin-left: 24px;
+  margin-left: 0px;
   padding: 5px;
   color: white;
 }
@@ -172,6 +173,7 @@ h1 {
   color: white;
   font-size: 30px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .project1 {
@@ -179,24 +181,25 @@ h1 {
   padding: 11px;
   float: right;
   margin-right: -100px;
-  position: relative;
+  margin-top: 0px;
+  
 }
 
 .project3 {
-  position: relative;
-  margin-top: 75px;
-  float: right;
+  margin-bottom: 200px;
   max-width: 50%;
   max-height: 372px;
+  margin-left: 100px;
 }
 
 .project2 {
-  position: relative;
+  
   max-width: 50%;
   max-height: 473px;
   padding: 14px;
   float: right;
   margin-right: -100px;
+  margin-top: -10px;
 }
 
 #contact {
@@ -215,7 +218,7 @@ input [type="text"] {
   resize: verticle;
 }
 
-input [type="submidt"] {
+input [type="submit"] {
   background-color: #028090;
   color: white;
   padding: 12px 20px;
@@ -223,15 +226,21 @@ input [type="submidt"] {
   cursor: pointer;
 }
 
-input [type="submidt"] :hover {
+input [type="submit"] :hover {
   background-color: aquamarine;
 }
 
 .container-contact {
   border-radius: 5px;
   background-color: #114b5f;
-  padding: 20px;
-}
+   padding: 20px; 
+  }
+
+  #contact{
+   margin-left: 100px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+  }
 
 @keyframes textclip {
   to {
@@ -272,12 +281,20 @@ input [type="submidt"] :hover {
   .mainNav,
   .nav-wrapper {
     flex-direction: column;
+    display: flex;
   }
 
   #animate-text {
     overflow-wrap: break-word;
     font-size: 50px;
   }
+
+  .container{
+    flex-direction: column;
+    display: flex;
+    overflow-wrap: normal;
+  }
+
 
   .flex-container {
     flex-direction: column;
