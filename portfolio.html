@@ -20,6 +20,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
+    
     <link rel="stylesheet" href="./style.css" />
   </head>
   <div class="nav-wrapper 79dc6ff">
@@ -56,7 +57,6 @@
   </div>
 
   <body class="mainBody">
-      
     <div class="border"></div>
 
     <div class="row">
@@ -64,33 +64,38 @@
         <h3 id="projects">Projects</h3>
       </div>
 
-      <div class="container">
-        <div class="col s12 l9">
-          <div class="projectSection" id="projects">
-            <a href="https://katykb.github.io/FoodDictionary/">
-              <img
-                class="project1"
-                src="./foodDictionary.jpg"
-                alt="foodDictionary"
-              />
-            </a>
-            <a href="https://katykb.github.io/Project2/"
-              ><img
-                class="project2"
-                src="./assets/laptop.phone.jpg"
-                alt="Laptop and phone on a wood desk"
-            /></a>
-            <a href="https://katykb.github.io/Project3/"
-              ><img
-                class="project3"
-                src="./assets/code.screen.jpg"
-                alt="Screen with code"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </div>
+      <div class="slideshow-container">
 
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <a href="https://github.com/erikscbd/project-two"><img  src="./assets/imsImage.jpg" style="width:100%"></a>
+          <div class="text">Technology Used: JavaScript, Handlebars, SQL, MySQL2, CSS</div>
+              </div>
+      
+        <div class="mySlides fade">
+          <a href="https://zanem10.github.io/Project-1/"><img src="./assets/foodDictionary.jpg" style="width:100%"></a>
+          <div class="text">Technology Used: HTML, CSS, JavaScript, Materialize CSS</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <a href="https://katykb.github.io/Weather-Dashboard/"><img src="./assets/weatherDashboard.jpg" style="width:100%"></a>
+          <div class="text">Technology Used: HTML, CSS, JavaScript</div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      
     <div class="border"></div>
 
     <div class="row">
@@ -131,15 +136,16 @@
       <div class="container">
         <div class="col s12 l9">
           <div class="resume-coming-soon">
-            Please check back <br />for an updated resume. <br />
-            Thank you!
+            <a
+              ><img id="resume-sign" src="./assets/resume.jpg" alt="Resume"
+            /></a>
           </div>
         </div>
       </div>
     </div>
 
     <div class="border"></div>
-    
+
     <div class="container s12 l9">
       <footer id="contact">
         Let me hear from you
@@ -174,5 +180,6 @@
         </div>
       </footer>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
