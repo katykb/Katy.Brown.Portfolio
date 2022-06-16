@@ -17,23 +17,17 @@
   font-family: "Bitter", serif;
 }
 
-.nav-wrapper,
-.landingNav {
-  background-image: linear-gradient(#379dc6ff, #72ddf1) !important;
-  display: flex;
-}
-
-.landingNav {
+.landing-nav {
   height: 95px;
   justify-content: right;
-  display: flex;
   margin-right: 20px;
+  display: inline;
+  background: linear-gradient(#028090, #114b5f);
 }
 
 .btn-large {
-  background-color: #9db553ff;
   margin: 10px 10px 10px 10px;
-  justify-content: left;
+  justify-content: right;
   font-family: "Bitter", serif;
 }
 
@@ -45,8 +39,8 @@ h1 {
   max-width: 100%;
   height: 40%;
   border-radius: 50%;
-  margin-top: -325px;
-  margin-left: -154px;
+  margin-top: -375px;
+  margin-left: -50px;
   position: absolute;
 }
 
@@ -82,19 +76,19 @@ html {
   animation: infinite reverse textclip 5s;
   font-size: 100px;
   text-align: center;
-  margin-right: -20px;
+  margin-right: -200px;
   flex-wrap: wrap;
   margin-top: 150px;
 }
 
 .landingSubHeading {
   font-size: 40px;
-  margin-top: 12px;
+  margin-top: 5px;
 }
 
 .mainNav {
-  margin-left: 300px;
-  background-image: linear-gradient(#379dc6ff, #72ddf1) !important;
+  background: linear-gradient(#028090, #114b5f);
+  /* margin-left: 200px; */
   height: 75px;
   display: flex;
 }
@@ -119,8 +113,8 @@ html {
   color: white;
 }
 
-#resume-sign{
-  height:25%;
+#resume-sign {
+  height: 25%;
   max-width: 25%;
 }
 
@@ -148,25 +142,26 @@ h1 {
   padding: 10px;
 }
 
-.portfolio-pic {
+/* .portfolio-pic {
   max-width: 100%;
   height: 30%;
   border-radius: 50%;
   border: rgb(146, 189, 224) 5px dashed;
-}
+} */
 
 .welcomeMessage {
   margin-top: -50px;
+  margin-right: -100px;
   color: #e7ecef;
-  font-size: 23px;
+  font-size: 15px;
   width: 100%;
   text-align: center;
 }
 
-.border{
+.border {
   height: 5px;
-  background-image: linear-gradient(#E7ECEF, #8B8C89);
-  }
+  background-image: linear-gradient(#e7ecef, #8b8c89);
+}
 
 .about,
 #resume,
@@ -195,7 +190,8 @@ h1 {
   display: none;
 }
 
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -221,7 +217,6 @@ h1 {
   background-color: rgba(0,0,0,0.8);
 } */
 
-
 .text {
   color: #f2f2f2;
   background-color: rgb(43, 40, 40);
@@ -245,7 +240,8 @@ h1 {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -255,8 +251,12 @@ h1 {
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #contact {
@@ -361,22 +361,20 @@ input [type="submit"] :hover {
     border-left: none;
   }
 
-  .projectSection{
+  .projectSection {
     background-color: black;
   }
 
-  .project1{
+  .project1 {
     display: flex;
     flex-direction: column;
     margin-left: -700px;
     margin-right: -100px;
   }
 
-  .project2{
+  .project2 {
     flex-direction: column;
     margin-left: 400px;
     margin-top: 150px;
   }
-
-
 }
