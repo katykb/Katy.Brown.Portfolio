@@ -1,63 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bitter&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Katy Brown Portfolio</title>
-  </head>
-
-
-    <nav class="landing-nav">
-      <ul class="right">
-        <li>
-          <a href="./portfolio.html">
-            <button class="btn">My Portfolio</button>
-          </a>
-          <a href="https://github.com/katykb">
-            <button class="btn #9db553ff">GitHub</button>
-          </a>
-          <a href="https://www.linkedin.com/in/katy-b-a7984084/l">
-            <button class="btn #9db553ff">LinkedIn</button>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  
-
-
-  <body class="landingBody">
-    <div class="container">
-      <h1 id="animate-text">Katy Brown</h1>
-      <h4 class="landingSubHeading">Entry-level Web Developer</h4>
-      <img
-        class="landingPic"
-        src="./assets/portfolioPic.jpg"
-        alt="my picture"
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous"
       />
-    </div>
-    <div class="container">
-      <div class="col l3">
-        <p class="welcomeMessage">
-          Welcome to the beginning compalation of <br />
-          my Web Development projects.<br />
-          Thank you for stopping by.<br />
-          I hope you love what you see!
-        </p>
+      <link rel="stylesheet" href="./style.css" />
+      <title>Katy Brownn Portfolio</title>
+    </head>
+    <body>
+      <div class="flex">
+        <nav class="nav d-flex flex-column flex-sm-row" id="landingNav">
+          <div class="container-fluid">
+            <div class="navbar navbar-expand" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="./portfolio.html"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="https://github.com/katykb"
+                    >GitHub</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-light"
+                    href="https://www.linkedin.com/in/katy-b-a7984084/"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  </body>
-</html>
+      <div class="container body">
+        <div class="row">
+          <div class="col sm1">
+            <img class="portfolio-pic" src="./assets/portfolioPic.jpg" />
+          </div>
+          <div class="col sm1" id="name-title">
+            <h1 class="text-light name">Katy Brown</h1>
+            <p class="text-light title">Web Developer</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
