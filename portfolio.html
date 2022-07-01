@@ -16,55 +16,47 @@
       rel="stylesheet"
     />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+crossorigin="anonymous">
     
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <!-- <div class="nav-wrapper 79dc6ff"> -->
-    <nav class="mainNav">
-      <ul class="nav-mobil left">
-        <li>
-          <a href="./index.html">
-            <button class="btn-large #9db553ff">Home</button>
-          </a>
-        </li>
-        <li>
-          <a href="#about">
-            <button class="btn-large #9db553ff">About Me</button>
-          </a>
-        </li>
-        <li>
-          <a href="#projects">
-            <button class="btn-large #9db553ff">Projects</button>
-          </a>
-        </li>
-        <li>
-          <a href="#resume">
-            <button class="btn-large #9db553ff">Resume</button>
-          </a>
-        </li>
 
-        <li>
-          <a href="#contact">
-            <button class="btn-large #9db553ff">Contact</button>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-
-  <body class="mainBody">
-    <!-- <div class="border"></div> -->
-
-    <div class="row">
-      <div class="col s12 l3">
-        <h3 id="projects">Projects</h3>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" 
+        aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Resume</a>
+              <li class="nav-item">
+                <a class="nav-link">Contact</a>
+              </li>
+            </li>
+          </ul>
+        </div>
       </div>
-
+    </nav>
+    
+  <body class="mainBody">
+    
       <div class="slideshow-container">
+        <div class="d-flex p-2">
 
           <div class="mySlides fade">
           <a href="https://github.com/erikscbd/project-two"><img  src="./assets/imsCarosel.JPG" style="width:100%"></a>
@@ -91,107 +83,115 @@
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
       </div>
-
-      
-    <div class="border"></div>
-
-    <div class="row">
-      <div class="col s12 l3">
-        <h3 class="about" id="about">About Me</h3>
-      </div>
-      <div class="container">
-        <div class="col s12 l9">
-          <p class="about-summary">
-            After earning a degree in Fashion Merchanding,<br />I gained
-            valuable experience working for retail organizations <br />
-            in both the store enviornment and corporate office.
-            <br />
-            <br />
-            Putting my retail experience to work, <br />
-            I began working for myself. I opend an online vintage clothing
-            <br />
-            business that eventually led to a stand alone vintage shop.
-            <br />
-            <br />
-            Web Development is the exciting next step in my career!<br />
-            I look forward to challenging and exciting projects that will put my
-            retail, <br />
-            customer service and management skills to the test.
-          </p>
-        </div>
-      </div>
     </div>
 
-    <div class="border"></div>
-
-    <div class="row">
-      <div class="col s12 l3">
-        <h3 id="resume">My Resume</h3>
+    
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3 col-md-6 col-lg-4">
+            About
+          </div>
+          <div class="col-sm-9 col-md-6 col-lg-6">
+            Beginning Developer bringing over 10 years of merchandising experience 
+            and a service-oriented mindset to a career in technology.
+            Trained at SMU in Full-Stack Web Development and acquired skills <br> in both 
+            front and back-end development.
+            A creative thinker excited 
+            about building applications that are UI focused and efficient. 
+            <br>
+            <br>
+            Through my years of professional experience, I have acquired several 
+            transferable skills that I will bring to your organization. 
+            I will apply time management, organization, teamwork and communication to all future endeavors. 
+            <br>
+            <br>
+            In addition to professional experience, I have held several volunteer 
+            roles with schools for five plus years. I have had the privilege of 
+            assisting teachers in the classroom, planning school-wide fundraising events, 
+            being a member of a parent and teacher committee and assisting with administrative duties
+            <br>
+            <br>
+            I look forward to putting my tech skills and previous experiences to work.
+          </p>
+          </div>
+        </div>
       </div>
-
-      <div class="container">
-        <div class="col s12 l9">
-          <div class="resume-coming-soon">
+   
+    
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3 col-md-6 col-lg-4">
+           Resume
+          </div>
+          <div class="col-sm-9 col-md-6 col-lg-6">
+            <div class="resume-coming-soon">
             <a href ="https://docs.google.com/document/d/15Gm-gVHVsA20c1z5LBnbTQA1G9fnaQy8/edit?usp=sharing&ouid=109909993983002625510&rtpof=true&sd=true"
               ><img id="resume-sign" src="./assets/resumeScreen.JPG" alt="Resume"
             /></a>
           </div>
+          </div>
+        </div>
+      </div>
+           
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3 col-md-6 col-lg-4">
+          Contact
+              <ul class="reach-me">
+              <li>Katy Brown</li>
+              <li>katybr35@gmail.com</li>
+              <li><a href="https://www.linkedin.com/in/katy-b-a7984084/">My LinkedIn</a></li>
+              <li><a href="https://github.com/katykb">My GitHub</a></li>
+              </ul>
+          </div>
+        </div>
+       
+          <div class="container">
+      
+            <footer class="col-sm-9 col-md-6 col-lg-6" id="contact">
+              Let me hear from you
+              <div class="container-contact">
+                <form action="/action_page.php">
+                  <label for="fname">First name</label>
+                  <input
+                    type="text"
+                    id="fname"
+                    name="firstname"
+                    placeholder="Your name..."
+                  />
+      
+                  <label for="lname">Last Name</label>
+                  <input
+                    type="text"
+                    id="lname"
+                    name="lastname"
+                    placeholder="Your last name..."
+                  />
+      
+                  <label for="email">Email</label>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Your email..."
+                  />
+      
+                  <input type="submit" value="Submit" />
+                </form>
+             
+            </footer>
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="border"></div>
-
-   
-
-    <div class="row">
-      <div class="col s12 l3">
-        <h3 id="my-contact">My Contact Info</h3>
-        <ul class="reach-me">
-        <li>Katy Brown</li>
-        <li>katybr35@gmail.com</li>
-        <li><a href="https://www.linkedin.com/in/katy-b-a7984084/">My LinkedIn</a></li>
-        <li><a href="https://github.com/katykb">My GitHub</a></li>
-        </ul>
       </div>
+  
+    
+   
 
     
 
-    <div class="container">
-      
-      <footer class="s12 l9" id="contact">
-        Let me hear from you
-        <div class="container-contact">
-          <form action="/action_page.php">
-            <label for="fname">First name</label>
-            <input
-              type="text"
-              id="fname"
-              name="firstname"
-              placeholder="Your name..."
-            />
-
-            <label for="lname">Last Name</label>
-            <input
-              type="text"
-              id="lname"
-              name="lastname"
-              placeholder="Your last name..."
-            />
-
-            <label for="email">Email</label>
-            <input
-              type="text"
-              id="email"
-              name="email"
-              placeholder="Your email..."
-            />
-
-            <input type="submit" value="Submit" />
-          </form>
-       
-      </footer>
-    </div>
+    
     </div>
     <script src="./script.js"></script>
   </body>
