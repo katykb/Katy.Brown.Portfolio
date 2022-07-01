@@ -6,6 +6,10 @@
   body {
     background-color: whitesmoke;
   }
+
+  #landingScreen {
+    height: 100vh;
+  }
   
   .nav-link {
     background-color: whitesmoke;
@@ -14,7 +18,7 @@
   
   .portfolio-pic {
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 175px;
     width: 50%;
     height: auto;
     border-radius: 50%;
