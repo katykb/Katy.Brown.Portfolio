@@ -11,9 +11,24 @@
     height: 100vh;
   }
   
+  .navbar{
+    overflow: hidden;
+    z-index:1; 
+  }
+
   .nav-link {
     background-color: whitesmoke;
     color:rgb(25, 130, 196)!important;
+  }
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
   }
   
   .portfolio-pic {
