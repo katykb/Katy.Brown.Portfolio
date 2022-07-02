@@ -40,8 +40,6 @@ html {
   margin-top: 5px;
 } */
 
-
-
 .mainBody,
 .containerMain {
   background: whitesmoke;
@@ -58,7 +56,7 @@ html {
 .resume-coming-soon {
   border-left: solid 2px #edf2f4;
   justify-content: center;
-  text-align:justify;
+  text-align: justify;
   color: black;
 }
 
@@ -126,8 +124,8 @@ h1 {
 }
 
 .carousel-item .img-fluid {
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
 }
 
 .carousel-control-prev,
@@ -202,39 +200,6 @@ h1 {
   width: 375px;
 }
 
-input [type="text"] {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #114b5f;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: verticle;
-}
-
-input [type="submit"] {
-  background-color: #028090;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input [type="submit"] :hover {
-  background-color: aquamarine;
-}
-
-.container-contact {
-  border-radius: 5px;
-  background-color: #114b5f;
-  padding: 20px;
-}
-
-#container-contact {
-  border-left: solid 2px #edf2f4;
-}
-
 .reach-me {
   color: black;
   text-align: center;
@@ -251,10 +216,39 @@ input [type="submit"] :hover {
   color: black;
 }
 
-#contact {
-  margin-left: 313px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+#contact-form {
+  margin-left: 400px;
+  margin-top: 400px;
+}
+
+
+.fa-brands,
+.fa-envelope {
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-list {
+  display: inline;
+  margin-left: 50%;
+  list-style: none;
+  text-align: center;
+  margin-left: 390px;
+  margin-top: 200px;
+}
+
+.contactForm {
+  height: 100vh;
+}
+
+#message{
+  height: 200px;
+}
+
+li {
+  display: inline;
+  align-items: center;
 }
 
 @keyframes textclip {
