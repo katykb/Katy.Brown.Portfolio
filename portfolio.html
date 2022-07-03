@@ -184,7 +184,7 @@
 
 
     <div class="container-fluid col-sm-3 col-md-6 col-lg-8 contactForm" id="contact-form">
-      <div class="form-group">
+      <div class="form-group" >
   <label class="control-label col-sm-2" for="email">Email:</label>
   <div class="col-sm-10">
     <input
@@ -192,6 +192,7 @@
       class="form-control"
       id="email"
       placeholder="Email"
+      name="Email"
     />
   </div>
   </div>
@@ -199,26 +200,28 @@
   <label class="control-label col-sm-2" for="pwd">Name:</label>
   <div class="col-sm-10">
     <input
-      type="password"
+      type="input"
       class="form-control"
-      id="pwd"
+      id="name"
       placeholder="First and last name"
+      name="Full Name"
     />
   </div>
   </div>
   <div class="form-group">
   <label class="control-label col-sm-2" for="pwd">Message:</label>
   <div class="col-sm-10">
-    <input
-      type="password"
+    <textarea
+      type="input"
       class="form-control"
       id="message"
-         />
+      name="Message"
+         ></textarea>
   </div>
   </div>
   <div class="form-group">
   <div class="col-sm-offset-2 col-sm-10">
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="submit" class="btn btn-default" id="contactBtn">Submit</button>
   </div>
   </div>
   </form>
@@ -227,9 +230,9 @@
   <footer>
     <div class="nav">
       <ul class="contact-list">
-        <li class="nav-item"><i class="fa-brands fa-linkedin-in"></i></li>
-        <li class="nav-item"><i class="fa-brands fa-github"></i></li>
-        <li class="nav-item"><i class="fa-solid fa-envelope"></i></li>
+        <a href="https://www.linkedin.com/in/katy-b-a7984084/"><li class="nav-item"><i class="fa-brands fa-linkedin-in"></i></li></a>
+        <a href=<a href="https://www.linkedin.com/in/katy-b-a7984084/"><li class="nav-item"><i class="fa-brands fa-github"></i></li></a>
+        <a href="mailto:katybr35@gmail.com"><li class="nav-item"><i class="fa-solid fa-envelope"></i></li></a>
       </ul>
     </div>
   </footer>
@@ -245,5 +248,8 @@
       integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
       crossorigin="anonymous"
     ></script>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+  
+
   </body>
 </html>
