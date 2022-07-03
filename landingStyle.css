@@ -32,27 +32,29 @@
   }
   
   .portfolio-pic {
-    margin-top: 100px;
+    margin-top: 180px;
     margin-left: 175px;
     width: 50%;
     height: auto;
     border-radius: 50%;
+    border-color: rgb(48, 52, 63)!important;
+    border-width: 5px;
   }
   
   .name {
     font-size: 80px;
     text-align: center;
-    color: rgb(25, 130, 196)!important;
+    color: rgb(48, 52, 63)!important;
   }
   
   .title {
     font-size: 50px;
     text-align: center;
-    color: rgb(25, 130, 196)!important;
+    color:  rgb(48, 52, 63)!important;
   }
   
   #name-title {
-    margin-top: 150px;
+    margin-top: 250px;
     margin-left: -250px;
   }
   /* #triangle-topleft {
