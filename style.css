@@ -239,7 +239,7 @@ h1 {
 
 #contact-form {
   margin-left: 400px;
-  margin-top: 400px;
+  margin-top: 600px;
 }
 
 .fa-brands,
@@ -254,12 +254,17 @@ h1 {
   margin-left: 50%;
   list-style: none;
   text-align: center;
-  margin-left: 170px;
-  margin-top: 200px;
+  margin-left: 150px;
+  margin-top: 85px;
 }
 
 .contactForm {
-  height: 100vh;
+   margin-top: 400px;
+   margin-left: 400px;
+}
+
+#contact-div{
+  height: 600px;
 }
 
 #message {
