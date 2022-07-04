@@ -14,28 +14,30 @@ html {
   scroll-behavior: smooth;
 }
 
-.navbar, .navbar-nav, .navbar-nav>li {
-  float:none !important;
-  background-color: rgb(48, 52, 63)!important;
+.navbar,
+.navbar-nav,
+.navbar-nav > li {
+  float: none !important;
+  background-color: rgb(48, 52, 63) !important;
   height: 100px;
 }
 
-.navbar-nav{
+.navbar-nav {
   margin-left: 930px;
- }
-
-.nav-link{
-  background-color:rgb(48, 52, 63)!important;
-  color: whitesmoke!important;
-  margin-top: 10px;
-  margin-right: 25px;
-  }
-
-.navbar {
-  display:flex;
 }
 
-.navbar>li {
+.nav-link {
+  background-color: rgb(48, 52, 63) !important;
+  color: whitesmoke !important;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar > li {
   flex: 1;
 }
 
@@ -71,10 +73,6 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.projectTitle {
-  margin-left: 15px;
-  color: black;
-}
 
 .projectSection,
 .about-summary,
@@ -82,13 +80,15 @@ html {
   border-left: solid 2px #edf2f4;
   justify-content: center;
   text-align: justify;
-  color: black;
+  color: rgb(48, 52, 63);
 }
 
 #resume-sign {
-  height: 25%;
-  max-width: 25%;
+  height: 100%;
+  max-width: 50%;
   margin-left: 75px;
+  border-style: solid;
+  border-color: rgb(48, 52, 63);
 }
 
 .about-summary,
@@ -98,9 +98,20 @@ html {
   margin-bottom: 30px;
 }
 
-.about-summary, #about{
-  margin-top: 50px;
+.about-summary,
+#about {
+  margin-top: 165px;
 }
+
+#about-div {
+  height: 900px;
+  margin-top: 150px;
+}
+
+#resume-border {
+  height: 900px;
+}
+
 .project1 {
   width: 100%;
   margin-right: 50px;
@@ -123,6 +134,10 @@ h1 {
   background-image: linear-gradient(#e7ecef, #8b8c89);
 }
 
+#resume, #resume-sign{
+  margin-top: 200px;
+}
+
 .about,
 #resume,
 #projects,
@@ -143,12 +158,13 @@ h1 {
 #project-images {
   max-width: 1000px;
   position: relative;
-  margin: auto; 
+  margin: auto;
   margin-left: 250px;
 }
 
-.background-color-carousel{
-  background-color: rgb(48, 52, 63)!important;
+.background-color-carousel {
+  background-color: rgb(48, 52, 63) !important;
+  height: 800px;
 }
 
 .mySlides {
@@ -156,8 +172,9 @@ h1 {
 }
 
 .carousel-item .img-fluid {
-    height: 100%;
-    align-items: center;
+  height: 100%;
+  align-items: center;
+  margin-top: 125px;
 }
 
 .carousel-control-prev,
@@ -206,7 +223,6 @@ h1 {
   transition: background-color 0.6s ease;
 }
 
-
 .slide {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -220,7 +236,6 @@ h1 {
     opacity: 1;
   }
 }
-
 
 #contact-form {
   margin-left: 400px;
@@ -247,21 +262,21 @@ h1 {
   height: 100vh;
 }
 
-#message{
+#message {
   height: 200px;
-  }
+}
 
-  textarea {
-    width: 100%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    font-size: 16px;
-    resize: none;
-  }
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
 
 li {
   display: inline;
