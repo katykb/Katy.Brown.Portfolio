@@ -33,8 +33,9 @@
   </head>
 
   
-  <nav class="navbar navbar-expand-lg sticky">
-      <button
+  <nav class="navbar navbar-expand-lg sticky flex-sm-col">
+    <a class="navbar-brand">Katy Brown</a>
+      <!-- <button
         class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
@@ -44,9 +45,9 @@
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav flex-sm-col">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="./index.html"
               >Home</a
@@ -69,7 +70,7 @@
     </nav>
 
 
-  <div class="container body">
+  <div class="container-fluid body">
     <div id="landingScreen">
       <div class="row">
         <div class="col sm1">
@@ -82,8 +83,10 @@
       </div>
     </div>
   </div>
+
+
   <body class="mainBody">
-    <div class="background-color-carousel">
+    <div class="background-color-carousel container-fluid">
     <div id="demo" class="carousel slide" data-ride="carousel">
       <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>

@@ -23,16 +23,19 @@ html {
 }
 
 .navbar-nav {
-  margin-left: 930px;
+  margin-left: 700px;
 }
 
 .nav-link {
   background-color: rgb(48, 52, 63) !important;
   color: whitesmoke !important;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-right: 25px;
 }
 
+.navbar-brand {
+  color: whitesmoke!important;
+}
 .navbar {
   display: flex;
 }
@@ -254,7 +257,7 @@ h1 {
   margin-left: 50%;
   list-style: none;
   text-align: center;
-  margin-left: 150px;
+  margin-left: 600px;
   margin-top: 85px;
 }
 
