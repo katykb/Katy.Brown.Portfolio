@@ -31,7 +31,7 @@
     margin-left: 175px;
     width: 50%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 70%;
     border-color: rgb(48, 52, 63)!important;
     border-width: 5px;
   }
@@ -53,3 +53,26 @@
     margin-left: -250px;
   }
  
+  @media (max-width: 480px) {
+    body {
+      background-color: black;
+      }
+      .portfolio-pic{
+        height: auto;
+        width: 100%;
+        margin-left: 20%;
+      }
+
+      .name{
+        font-size: 45px;
+        margin-top: 270px;
+        text-align: center;
+        margin-left: -60px;
+      }
+
+      .title{
+        font-size: 25px;
+        margin-left: -60px;
+        text-align: center;
+      }
+}
