@@ -34,7 +34,7 @@ html {
 }
 
 .navbar-brand {
-  color: whitesmoke!important;
+  color: whitesmoke !important;
 }
 .navbar {
   display: flex;
@@ -44,38 +44,11 @@ html {
   flex: 1;
 }
 
-/* #animate-text,
-.landingSubHeading {
-  height: 125px;
-  background-image: linear-gradient(
-    167deg,
-    #f7b2eddc 0%,
-    #9ef796 29%,
-    #fdd8aee3 67%,
-    rgb(146, 189, 224) 100%
-  );
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: infinite reverse textclip 5s;
-  font-size: 100px;
-  text-align: center;
-  margin-right: -200px;
-  flex-wrap: wrap;
-  margin-top: 150px;
-} */
-
-/* .landingSubHeading {
-  font-size: 40px;
-  margin-top: 5px;
-} */
-
 .mainBody,
 .containerMain {
   background: whitesmoke;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 .projectSection,
 .about-summary,
@@ -137,7 +110,8 @@ h1 {
   background-image: linear-gradient(#e7ecef, #8b8c89);
 }
 
-#resume, #resume-sign{
+#resume,
+#resume-sign {
   margin-top: 200px;
 }
 
@@ -158,16 +132,17 @@ h1 {
   text-align: center;
   margin-top: 20px;
 }
-#project-images {
+
+/* #project-images {
   max-width: 1000px;
   position: relative;
   margin: auto;
   margin-left: 250px;
-}
+} */
 
 .background-color-carousel {
   background-color: rgb(48, 52, 63) !important;
-  height: 800px;
+  height: 1000px;
 }
 
 .mySlides {
@@ -177,7 +152,7 @@ h1 {
 .carousel-item .img-fluid {
   height: 100%;
   align-items: center;
-  margin-top: 125px;
+  margin-top: 65px;
 }
 
 .carousel-control-prev,
@@ -262,11 +237,11 @@ h1 {
 }
 
 .contactForm {
-   margin-top: 400px;
-   margin-left: 400px;
+  margin-top: 400px;
+  margin-left: 400px;
 }
 
-#contact-div{
+#contact-div {
   height: 600px;
 }
 
@@ -297,46 +272,15 @@ li {
   }
 }
 
-@media (max-width: 586px) {
-  .btn-large {
-    margin-left: 100px;
-  }
+@media (max-width: 480px) {
+ 
+#project-images, .carousel-inner{
+  margin-right: 200px;
+}
 
-  .landingPic {
-    flex-direction: column;
-    margin-left: 50px;
-    margin-top: -550px;
-  }
-
-  #animate-text {
-    margin-top: 350px;
-    flex-direction: column;
-    display: flex;
-    order: 2;
-  }
-
-  .landingSubHeading {
-    margin-top: -56px;
-  }
-
-  .welcomeMessage {
-    flex-direction: column;
-    display: flex;
-    order: 4;
-  }
-
-  .landingNav,
-  .mainNav,
-  .nav-wrapper {
-    flex-direction: column;
-    display: flex;
-  }
-
-  #animate-text {
-    overflow-wrap: break-word;
-    font-size: 50px;
-  }
-
+.background-color-carousel {
+  height: 400px;
+}
   .container {
     flex-direction: column;
     display: flex;
@@ -353,20 +297,4 @@ li {
     border-left: none;
   }
 
-  .projectSection {
-    background-color: black;
   }
-
-  .project1 {
-    display: flex;
-    flex-direction: column;
-    margin-left: -700px;
-    margin-right: -100px;
-  }
-
-  .project2 {
-    flex-direction: column;
-    margin-left: 400px;
-    margin-top: 150px;
-  }
-}
