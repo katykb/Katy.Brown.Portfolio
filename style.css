@@ -133,12 +133,11 @@ h1 {
   margin-top: 20px;
 }
 
-/* #project-images {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  margin-left: 250px;
-} */
+#project-images {
+  max-width: 75%;
+  height: 100%;
+  margin-left: 250px; 
+}
 
 .background-color-carousel {
   background-color: rgb(48, 52, 63) !important;
@@ -151,6 +150,7 @@ h1 {
 
 .carousel-item .img-fluid {
   height: 100%;
+  width: 25%;
   align-items: center;
   margin-top: 65px;
 }
@@ -159,7 +159,7 @@ h1 {
 .carousel-control-next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 20%;
   width: auto;
   margin-top: -150px;
   margin-left: 30px;
@@ -282,12 +282,21 @@ li {
     margin-right: 200px;
   }
 
-  .background-color-carousel {
-    height: 400px;
+  #project-images{
+    height: 120%;
+    width: 120%;
+    margin-left: 30px;
+    margin-top: 5px;
   }
+  .background-color-carousel {
+    height: 300px;
+    }
 
-  #about-div{
-    height: 400px;
+ .carousel-control-prev,
+.carousel-control-next{
+  margin-top: 70px;
+  margin-left: -25px;
+    
   }
 
   .about-summary{
@@ -295,6 +304,9 @@ li {
     margin-top: -50px;
   }
 
+  #about-div{
+    height: 350px;
+  }
   #about{
     font-size: 25px;
     margin-top: -120px;
