@@ -11,7 +11,7 @@
     height: 100vh;
   }
   
-  .navbar{
+  /* .navbar{
     overflow: hidden;
     z-index:1; 
   }
@@ -24,7 +24,7 @@
   
   .sticky + .content {
     padding-top: 60px;
-  }
+  } */
   
   .portfolio-pic {
     margin-top: 180px;

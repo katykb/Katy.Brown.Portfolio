@@ -20,10 +20,12 @@ html {
   float: none !important;
   background-color: rgb(48, 52, 63) !important;
   height: 100px;
+ 
 }
 
 .navbar-nav {
   margin-left: 700px;
+ 
 }
 
 .nav-link {
@@ -36,13 +38,13 @@ html {
 .navbar-brand {
   color: whitesmoke !important;
 }
-.navbar {
+/* .navbar {
   display: flex;
 }
 
 .navbar > li {
   flex: 1;
-}
+} */
 
 .mainBody,
 .containerMain {
@@ -62,15 +64,20 @@ html {
 #resume-sign {
   height: 100%;
   max-width: 50%;
-  margin-left: 75px;
+  margin-left: 100px;
   border-style: solid;
+  margin-top: -50px;
   border-color: rgb(48, 52, 63);
 }
 
+#email, #github, #linkedIn {
+
+  margin-left: -175px;
+
+}
 .about-summary,
 .resume-coming-soon {
   margin-right: -150px;
-  margin-top: 30px;
   margin-bottom: 30px;
 }
 
